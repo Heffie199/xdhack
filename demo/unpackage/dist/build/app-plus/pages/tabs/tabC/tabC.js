@@ -1,0 +1,2 @@
+setCssToHead(["body{ background: #F5F5F5; }\n.",[1],"waiting{ height: 70vh; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }\n",],undefined,{path:"./pages/tabs/tabC/tabC.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/tabs/tabC/tabC.wxml') } }));

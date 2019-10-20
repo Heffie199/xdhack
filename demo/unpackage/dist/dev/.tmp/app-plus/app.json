@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/guide/guide",
+    "pages/first/first",
+    "pages/second/second",
+    "pages/tabs/tabA/tabA",
+    "pages/tabs/tabB/tabB",
+    "pages/tabs/tabC/tabC",
+    "pages/tabs/tabD/tabD",
+    "pages/third/third"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/tabs/tabA/tabA",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/homeA.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/tabs/tabB/tabB",
+        "iconPath": "static/icon/date.png",
+        "selectedIconPath": "static/icon/dateA.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/tabs/tabC/tabC",
+        "iconPath": "static/icon/record.png",
+        "selectedIconPath": "static/icon/recordA.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/tabs/tabD/tabD",
+        "iconPath": "static/icon/personal.png",
+        "selectedIconPath": "static/icon/personalA.png",
+        "text": ""
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "demo",
+  "compilerVersion": "2.3.5",
+  "usingComponents": {}
+}

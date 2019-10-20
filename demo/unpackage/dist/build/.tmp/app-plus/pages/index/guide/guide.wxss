@@ -1,0 +1,21 @@
+
+page,
+.content{
+	width: 100%;
+	height: 100%;
+	background-size: 100% auto ;
+	padding: 0;
+}
+.top{
+	padding-top:  var(--status-bar-height);
+}
+.swiper{
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+}
+.swiper-item-img image{ 
+	width: 750rpx;
+	height: 1334rpx;
+}
+

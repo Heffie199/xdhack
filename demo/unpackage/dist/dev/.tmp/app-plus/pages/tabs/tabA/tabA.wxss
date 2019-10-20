@@ -1,0 +1,181 @@
+
+.header-top{
+	position: relative;
+	text-align: center;
+	padding-top: 20rpx;
+}
+.header-top-bg{
+	width:750rpx;
+	height:428rpx;
+	background:-o-linear-gradient(293deg,rgba(130,177,237,1) 0%,rgba(176,115,253,1) 100%);
+	background:linear-gradient(157deg,rgba(130,177,237,1) 0%,rgba(176,115,253,1) 100%);
+	padding-top: var(--status-bar-height);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.search-area{
+	width: 612rpx;
+	height: 58rpx;
+	background: #E5E5E5;
+	/* margin-bottom: 40upx; */
+	margin: var(--status-bar-height) auto 40rpx auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-radius: 25rpx;
+	padding: 0 80rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.search-area image{
+	width: 50rpx;
+	height: 50rpx;
+}
+.search-area-input{
+	color: #B2B2B2;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.banner{
+	width: 678rpx;
+	height: 348rpx;
+	border-radius: 30rpx;
+	background: #FFD8Bc;
+	margin: 0 auto;
+}
+.tab-second{
+	padding: 0 70rpx 20rpx 70rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-bottom: 2rpx solid #EDE7E7;
+	margin: 20rpx auto;
+}
+.tab-second-unit image{
+	width: 114rpx;
+	height: 114rpx;
+}
+.tab-second-unit-title{
+	font-size: 24rpx;
+	color: #787878;
+}
+.tab-third{
+	padding: 0 70rpx 20rpx 70rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-bottom: 2rpx solid #EDE7E7;
+	margin-bottom: 30rpx;
+}
+.tab-third-unit{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.tab-third-unit-title{
+	color: #4A4A4A;
+	font-size: 20rpx;
+}
+.tab-third-unit image{
+	width: 16rpx;
+	height: 16rpx;
+	margin-left: 8rpx;
+}
+.list{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 0 42rpx;
+}
+.unit{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-flex: 40%;
+	-webkit-flex: 40%;
+	    -ms-flex: 40%;
+	        flex: 40%;
+	-webkit-flex-shrink: 0;
+	    -ms-flex-negative: 0;
+	        flex-shrink: 0;
+	-webkit-box-flex: 0;
+	-webkit-flex-grow: 0;
+	    -ms-flex-positive: 0;
+	        flex-grow: 0;
+	margin-bottom: 20rpx;
+}
+.unit view{
+	text-align: center;
+	color: #4A4A4A;
+	font-size: 22rpx;
+}
+.unit-img{
+	width: 300rpx;
+	height: 328rpx;
+	margin-bottom: 20rpx;
+	/* width: 150upx; */
+	/* height: 164upx; */
+}
+

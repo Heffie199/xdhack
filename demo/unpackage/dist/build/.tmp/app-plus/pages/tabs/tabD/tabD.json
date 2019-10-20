@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "usingComponents": {
+    "grace-header": "/graceUIForUniApp/components/graceHeader"
+  }
+}

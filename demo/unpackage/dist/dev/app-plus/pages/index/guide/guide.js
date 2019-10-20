@@ -1,0 +1,2 @@
+setCssToHead(["body, .",[1],"content{ width: 100%; height: 100%; background-size: 100% auto ; padding: 0; }\n.",[1],"top{ padding-top: var(--status-bar-height); }\n.",[1],"swiper{ width: 100%; height: 100%; background: #FFFFFF; }\n.",[1],"swiper-item-img wx-image{ width: ",[0,750],"; height: ",[0,1334],"; }\n",],undefined,{path:"./pages/index/guide/guide.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/guide/guide.wxml') } }));

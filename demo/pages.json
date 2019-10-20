@@ -1,0 +1,108 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/index/guide/guide",
+            "style": {
+            	"navigationStyle": "custom",
+            	"app-plus": {
+            		"titleNView": false
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/first/first",
+            "style": {
+            	"navigationStyle": "custom",
+            	"app-plus": {
+            		"titleNView": false
+            	}
+			}
+        }
+        ,{
+            "path" : "pages/second/second",
+            "style" : {"navigationStyle": "custom",
+            	"app-plus": {
+            		"titleNView": false
+            	}}
+        }
+        ,{
+            "path" : "pages/tabs/tabA/tabA",
+            "style" : {"navigationStyle": "custom",
+            	"app-plus": {
+            		"titleNView": false
+            	}}
+        }
+        ,{
+            "path" : "pages/tabs/tabB/tabB",
+            "style" : {"navigationStyle": "custom",
+            	"app-plus": {
+            		"titleNView": false
+            	}}
+        }
+        ,{
+            "path" : "pages/tabs/tabC/tabC",
+            "style" : {"navigationStyle": "custom",
+            	"app-plus": {
+            		"titleNView": false
+            	}}
+        }
+        ,{
+            "path" : "pages/tabs/tabD/tabD",
+            "style" : {"navigationStyle": "custom",
+            	"app-plus": {
+            		"titleNView": false
+            	}}
+        }
+        ,{
+            "path" : "pages/third/third",
+            "style" : {"navigationStyle": "custom",
+            	"app-plus": {
+            		"titleNView": false
+            	}}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/tabs/tabA/tabA",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/homeA.png",
+				"text": ""
+			},
+			{
+				"pagePath": "pages/tabs/tabB/tabB",
+				"iconPath": "static/icon/date.png",
+				"selectedIconPath": "static/icon/dateA.png",
+				"text": ""
+			}, {
+				"pagePath": "pages/tabs/tabC/tabC",
+				"iconPath": "static/icon/record.png",
+				"selectedIconPath": "static/icon/recordA.png",
+				"text": ""
+			}, {
+				"pagePath": "pages/tabs/tabD/tabD",
+				"iconPath": "static/icon/personal.png",
+				"selectedIconPath": "static/icon/personalA.png",
+				"text": ""
+			}
+		]
+	}
+}

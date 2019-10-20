@@ -1,0 +1,4 @@
+
+.grace-header{width:100%; position:fixed; left:0; top:0; z-index:99; height:44px; padding-top:20px; display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex; -webkit-box-orient:horizontal; -webkit-box-direction:normal; -webkit-flex-direction:row; -ms-flex-direction:row; flex-direction:row; -webkit-flex-wrap:nowrap; -ms-flex-wrap:nowrap; flex-wrap:nowrap;}
+.grace-header-main{width:300rpx; -webkit-box-flex:1; -webkit-flex:auto; -ms-flex:auto; flex:auto;}
+

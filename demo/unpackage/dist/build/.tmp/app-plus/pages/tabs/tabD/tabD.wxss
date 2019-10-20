@@ -1,0 +1,143 @@
+
+.header-top{
+	position: relative;
+	text-align: center;
+	padding-top: var(--status-bar-height);
+}
+.header-top-bg{
+	width:750rpx;
+	height:328rpx;
+	background:-o-linear-gradient(293deg,rgba(130,177,237,1) 0%,rgba(176,115,253,1) 100%);
+	background:linear-gradient(157deg,rgba(130,177,237,1) 0%,rgba(176,115,253,1) 100%);
+	padding-top: 100rpx;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.center-button{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding:0 65rpx;
+	background: #FFFFFF;
+}
+.button-unit{
+	width: 100%;
+	padding: 36rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	background: #FFFFFF;
+	border-bottom: 1rpx solid #E0E0E0;
+}
+.center-button-left{
+	width: 50rpx;
+	height: 50rpx;
+	margin-right: 20rpx;
+}
+.center-button-right{
+	width: 40rpx;
+	height: 40rpx;
+}
+.center-button-title{
+	font-size: 28rpx;
+	color: #4C2784;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+.three-number{
+	padding: 34rpx 95rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-bottom: 20rpx solid #F5F5F5;
+}
+.three-number-unit{
+	text-align: center;
+}
+.three-number-unit-a{
+	color: #4B2B85;
+	font-size: 80rpx;
+	margin-bottom: 8rpx;
+}
+.three-number-unit-b{
+	font-size: 24rpx;
+	color: #AEAEAE;
+}
+.toast{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 24rpx;
+	padding: 14rpx 24rpx;
+	background: -o-linear-gradient(315deg,rgba(235,209,172,1) 0%,rgba(200,172,122,1) 100%);
+	background: linear-gradient(135deg,rgba(235,209,172,1) 0%,rgba(200,172,122,1) 100%);
+}
+.user{
+	height: 264rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	padding-left: 60rpx;
+	padding-top: 100rpx;
+}
+.user-head{
+	width: 132rpx;
+	height: 132rpx;
+	border-radius: 100%;
+	margin-right: 26rpx;
+}
+.user-info{
+	text-align: left;
+}
+.user-info-name{
+	font-size: 40rpx;
+	color: #FFFFFF;
+}
+.user-info-phone{
+	font-size: 24rpx;
+	color: #FFFFFF;
+}
+.user-info-content{
+	font-size: 24rpx;
+	color: #FFFFFF;
+}
+
